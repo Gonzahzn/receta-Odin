@@ -1,4 +1,30 @@
-h1{
-    color: coral;
-    font-size: 50px;
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
+.padre{
+
+}
+    .recetaFondo{
+        background: #443627;
+    }
+        .receta{
+            background: #D98324;
+        }
+    .comidas{
+        background: #443627;
+    }
+        .comida{
+            background: #D98324;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            .milanesa{
+                background: #EFDCAB;
+                flex: 1 1 auto;
+            }
+            .pancho{
+                background: #EFDCAB;
+                flex: 1 1 auto;
+            }
