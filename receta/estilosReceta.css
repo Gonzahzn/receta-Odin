@@ -1,4 +1,69 @@
-h1{
-    color: coral;
-    font-size: 50px;
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
+.padre{
+
+}
+    .fondoTitulo{
+        background: #443627;
+        border-radius: 25px;
+    }
+        .titulo{
+            background: #D98324;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+        }
+        h1{
+            font-size: 50px;
+            border-radius: 25px;
+        }
+    .img{
+        width: 750px;
+        height: 500px;
+        border-radius: 25px;
+    }
+    .fondoIng{
+        background: #443627;
+        border-radius: 25px;
+    }
+        .ing{
+            background: #D98324;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+        }
+            .ingredientes{
+                background: #EFDCAB;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+            }
+    .fondoPas{
+        background: #443627;
+        border-radius: 25px;
+    }
+        .pas{
+            background: #D98324;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+        }
+            .pasos{
+                background: #EFDCAB;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+            }
+    .link{
+        background: #EFDCAB;
+        display: flex;
+        border-radius: 25px;
+    }

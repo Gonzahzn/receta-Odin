@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -8,23 +8,45 @@
 }
     .recetaFondo{
         background: #443627;
+        border-radius: 25px;
     }
         .receta{
             background: #D98324;
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            border-radius: 25px;
         }
+            h1{
+                font-size: 50px;
+            }
     .comidas{
         background: #443627;
+        border-radius: 25px;
     }
         .comida{
             background: #D98324;
             display: flex;
             flex-flow: row nowrap;
+            border-radius: 25px;
         }
             .milanesa{
                 background: #EFDCAB;
                 flex: 1 1 auto;
+                display: flex;
+                font-size: 30px;
+                justify-content: center; /* Centra horizontalmente */
+                align-items: center; /* Centra verticalmente */
+                border-radius: 25px;
+
             }
             .pancho{
                 background: #EFDCAB;
                 flex: 1 1 auto;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+
             }
